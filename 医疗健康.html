@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>春季常发疾病预防指南</title>
+    <style>
+        :root {
+            --primary-color: #2ecc71;
+            --secondary-color: #27ae60;
+            --text-dark: #2c3e50;
+            --bg-light: #f9fbf9;
+        }
+
+        body {
+            font-family: 'PingFang SC', 'Microsoft YaHei', sans-serif;
+            line-height: 1.6;
+            color: var(--text-dark);
+            background-color: var(--bg-light);
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            padding: 2rem 1rem;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        section {
+            background: white;
+            border-radius: 12px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 2px 15px rgba(0,0,0,0.05);
+        }
+
+        h2 {
+            color: var(--secondary-color);
+            border-left: 5px solid var(--secondary-color);
+            padding-left: 1rem;
+            margin-top: 0;
+        }
+
+        .media-box {
+            background: #f0f3f5;
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+            text-align: center;
+        }
+
+        video, audio {
+            width: 100%;
+            max-width: 700px;
+            border-radius: 8px;
+        }
+
+        .disease-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .card {
+            border: 1px solid #eee;
+            padding: 1rem;
+            border-radius: 8px;
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            border-color: var(--primary-color);
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: #7f8c8d;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>春季健康守护行动</h1>
+    <p>科学预防，拥抱生机勃勃的春天</p>
+</header>
+
+<div class="container">
+    
+    <section>
+        <h2>【医学博士】如何治疗鼻炎？I 让鼻炎患者，重获新生的方法</h2>
+        <div class="media-box">
+            <video controls poster="https://images.unsplash.com/photo-1504813184591-01592fd039e3?auto=format&fit=crop&w=800&q=80">
+                <source src="过敏性鼻炎.mp4" type="video/mp4">
+                您的浏览器不支持视频标签。
+            </video>
+            <p><small>视频：呼吸科专家解读春季过敏性鼻炎治疗</small></p>
+        </div>
+    </section>
+
+    <section>
+        <h2>常见疾病预防指南</h2>
+        <div class="disease-grid">
+            <div class="card">
+                <h3>1. 流行性感冒</h3>
+                <p>春季气温多变，是流感高发期。建议勤洗手，室内常通风，适度运动提高免疫力。</p>
+            </div>
+            <div class="card">
+                <h3>2. 过敏性疾病</h3>
+                <p>花粉、飞絮增多。易敏体质者外出建议佩戴口罩，备好抗过敏药物，回家后及时清洗面部。</p>
+            </div>
+            <div class="card">
+                <h3>3. 诺如病毒</h3>
+                <p>注意饮食卫生，不吃生冷食物，饭前便后必须洗手，加强食具消毒。</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>健康小电台</h2>
+        <p>如果您忙于家务或正在休息，可以听听这段音频指南：</p>
+        <div class="media-box">
+            <audio controls>
+                <source src="预防流感.mp3" type="audio/mpeg">
+                您的浏览器不支持音频标签。
+            </audio>
+            <p><small>音频：3分钟带你了解春季饮食禁忌</small></p>
+        </div>
+    </section>
+
+    <section>
+        <h2>生活习惯建议</h2>
+        <ul>
+            <li><strong>春捂秋冻：</strong>不要过早脱掉冬装，尤其是下肢和背部。</li>
+            <li><strong>规律作息：</strong>保证充足睡眠，有助于修复免疫系统。</li>
+            <li><strong>心情舒畅：</strong>中医认为春季属木，应注意疏肝理气，保持心情愉悦。</li>
+        </ul>
+    </section>
+
+</div>
+
+<footer>
+    <p>&copy; 2026 健康科普公益平台 | 仅供参考，如有不适请及时就医</p>
+</footer>
+
+</body>
+</html>
